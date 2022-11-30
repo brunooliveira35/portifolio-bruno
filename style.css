@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+h3{
+    text-align: start;
+    color: brown;
+    padding: 32px;
+}
+
+.header-menu{
+    background-color: blanchedalmond;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 10px;
+}
+
+.header-menu nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+    align-items: center;
+}
+
+.lista-menu li>a{
+    color: black;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.texto-1{
+    padding: 32px;
+}
+
+.principal{
+    display: flex;
+    background-color: brown;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.principal2{
+    display: flex;
+    background-color: blanchedalmond;
+    height: 100vh;
+    width: 100%;
+}
+
+.subcontainer-principal2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subcontainer-principal2 li>a{
+    font-size: 18px;
+    text-decoration: inherit;
+}
+.lista-item{
+    padding: 32px;
+}
+
+.lista-item ul li{
+    margin-bottom: 52px;
+}
+
+.principal3{
+    display: flex;
+    background-color: burlywood;
+    height: 100vh;
+    width: 100%;
+}
+
+.subcontainer-principal3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    padding: 32px;   
+}
+
+.subcontainer-principal3 li>a{
+    font-size: 18px;
+    text-decoration: inherit;
+}
