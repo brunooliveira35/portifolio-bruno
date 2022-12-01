@@ -46,9 +46,8 @@ h3{
 }
 
 .lista-menu li>a{
-    color: black;
+    color: rgb(62, 6, 18);
     font-size: 18px;
-    text-decoration: inherit;
 }
 
 .texto-1{
@@ -57,7 +56,7 @@ h3{
 
 .principal{
     display: flex;
-    background-color: brown;
+    background-color: rgb(140, 131, 7);
     height: 100vh;
     padding-top: 100px;
 }
@@ -73,9 +72,10 @@ h3{
 
 .principal2{
     display: flex;
-    background-color: blanchedalmond;
+    background-color: rgb(62, 6, 18);
     height: 100vh;
     width: 100%;
+    color: rgb(235, 229, 146);
 }
 
 .subcontainer-principal2{
@@ -86,7 +86,6 @@ h3{
 
 .subcontainer-principal2 li>a{
     font-size: 18px;
-    text-decoration: inherit;
 }
 .lista-item{
     padding: 32px;
@@ -112,5 +111,16 @@ h3{
 
 .subcontainer-principal3 li>a{
     font-size: 18px;
+}
+
+a{
     text-decoration: inherit;
+    color: brown;
+}
+
+button{
+    padding: 3px;
+    border-radius: 15%;
+    background-color: rgb(235, 229, 146);
+    border-color: rgb(62, 6, 18);
 }
