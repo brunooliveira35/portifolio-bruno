@@ -46,17 +46,18 @@ h3{
 }
 
 .lista-menu li>a{
-    color: rgb(62, 6, 18);
+    color: brown;
     font-size: 18px;
 }
 
 .texto-1{
     padding: 32px;
+    color: brown;
 }
 
 .principal{
     display: flex;
-    background-color: burlywood;
+    background-image: url(assets/imagem-fundo.jpg);
     height: 100vh;
     padding-top: 100px;
 }
@@ -75,7 +76,7 @@ h3{
     background-color: rgb(62, 6, 18);
     height: 100vh;
     width: 100%;
-    color: rgb(235, 229, 146);
+    color: blanchedalmond;
 }
 
 .subcontainer-principal2{
@@ -106,7 +107,7 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly; 
-    padding: 32px;   
+    padding: 32px;
 }
 
 .subcontainer-principal3 li>a{
@@ -116,13 +117,6 @@ h3{
 a{
     text-decoration: inherit;
     color: brown;
-}
-
-button{
-    padding: 3px;
-    border-radius: 15%;
-    background-color: rgb(235, 229, 146);
-    border-color: rgb(62, 6, 18);
 }
 
 .footer{
@@ -157,6 +151,5 @@ button{
 
 img{
     border-radius: 50%;
-    border-color: black;
-    border-style: groove;
+    border-style: none;
 }
